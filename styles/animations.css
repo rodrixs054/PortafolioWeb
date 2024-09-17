@@ -112,17 +112,18 @@ animation-delay: 5s; - 5 segundos de retraso antes de la primera animación
   }
   
   .animate-on-scroll {
-    opacity: 0; /* Elementos inicialmente invisibles */
-    transform: translate(0, 10%); /*Inicialmente fuera del viewport  */
-    transition: opacity 0.5s ease-out, transform 0.5s ease-out;  /*Transición suave*/ 
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+    will-change: opacity, transform;
   }
   
   .animate-on-scroll.animate {
-    opacity: 1; /*/Elementos visibles al ser animados */
-    animation: 2.5s cubic-bezier(.25, 1, .30, 1) wipe-in-bottom-right2 both;
-    transform: translate(0, 0);  /*Mover al lugar original  */
-
+    opacity: 1;
+    transform: translateY(0);
   }
+  
+
   
 
 
