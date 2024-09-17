@@ -1,0 +1,147 @@
+/*animation 1*/
+.flip-horizontal-bottom {
+	-webkit-animation: flip-horizontal-bottom 5s cubic-bezier(0.680, -0.550, 0.265, 1.550) infinite both;
+	        animation: flip-horizontal-bottom 5s cubic-bezier(0.680, -0.550, 0.265, 1.550) infinite both;
+}
+
+@-webkit-keyframes flip-horizontal-bottom {
+    0% {
+      -webkit-transform: rotateX(0);
+              transform: rotateX(0);
+    }
+    100% {
+      -webkit-transform: rotateX(-360deg);
+              transform: rotateX(-360deg);
+    }
+  }
+  @keyframes flip-horizontal-bottom {
+    0% {
+      -webkit-transform: rotateX(0);
+              transform: rotateX(0);
+    }
+    100% {
+      -webkit-transform: rotateX(-360deg);
+              transform: rotateX(-360deg);
+    }
+  }
+/*-----------------------------------------*/
+
+/*--- animation 2 -------------------------*/
+.rotate-in-2-bck-ccw {
+	-webkit-animation: rotate-in-2-bck-ccw 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: rotate-in-2-bck-ccw 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes rotate-in-2-bck-ccw {
+    0% {
+        -webkit-transform: translateZ(200px) rotate(45deg);
+        transform: translateZ(200px) rotate(45deg);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateZ(0) rotate(0);
+        transform: translateZ(0) rotate(0);
+        opacity: 1;
+    }
+}
+@keyframes rotate-in-2-bck-ccw {
+    0% {
+        -webkit-transform: translateZ(200px) rotate(45deg);
+        transform: translateZ(200px) rotate(45deg);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateZ(0) rotate(0);
+        transform: translateZ(0) rotate(0);
+        opacity: 1;
+    }
+}
+/*-----------------------------------------*/
+
+/*------- animation 3 --------------------*/
+
+/*
+Añadir a la clase del título a usar: - 
+animation: bounce 2s ease-in-out infinite;  2s es la duración de la animación
+animation-delay: 5s; - 5 segundos de retraso antes de la primera animación 
+*/
+
+/* Animación de rebote (titulos)*/
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-15px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+/*---------------------------------------------*/
+
+/*--------------- animation 4 ----------------*/
+@keyframes square-in-hesitate {
+    0% {
+      clip-path: inset(100% 100% 100% 100%);
+    }
+    40% {
+      clip-path: inset(33% 33% 33% 33%);
+    }
+    100% {
+      clip-path: inset(0 0 0 0);
+    }
+  }
+  
+  [transition-style="in:square:hesitate"] {
+    animation: 2.5s cubic-bezier(.25, 1, .30, 1) square-in-hesitate both;
+  }
+
+/*-------------------------------------------------*/
+
+
+/*----------------- animation 5 -------------------*/
+/*-- animación para la sección de mis proyectos --- */
+@keyframes wipe-in-bottom-right2 {
+    from {
+      clip-path: polygon(0 0, 0 0, 0 0, 0 50%);
+    }
+    to {
+      clip-path: polygon(-50% 0%, 200% 0, 0 200%, 0 -50%);
+    }
+  }
+  
+  .animate-on-scroll {
+    opacity: 0; /* Elementos inicialmente invisibles */
+    transform: translate(0, 10%); /*Inicialmente fuera del viewport  */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;  /*Transición suave*/ 
+  }
+  
+  .animate-on-scroll.animate {
+    opacity: 1; /*/Elementos visibles al ser animados */
+    animation: 2.5s cubic-bezier(.25, 1, .30, 1) wipe-in-bottom-right2 both;
+    transform: translate(0, 0);  /*Mover al lugar original  */
+
+  }
+  
+
+
+/*
+  .animate-on-scroll {
+    opacity: 0; // Elementos inicialmente invisibles 
+    transform: translate(0, 50%); //Inicialmente fuera del viewport 
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;  T//ransición suave 
+  }
+  
+  .animate-on-scroll.animate {
+    opacity: 1; //Elementos visibles al ser animados 
+    transform: translate(0, 0); // Mover al lugar original 
+  }
+
+*/
+
+
+
+
+
+

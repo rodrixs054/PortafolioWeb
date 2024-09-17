@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="desarrollador web, frontend developer, programación">
+    <meta name="description" content="Portafolio Web - Frontend Developer - Ian Rodrigo López Espinosa">
+    <meta name="author" content="Ian Rodrigo López Espinosa">
+    
+    <title>Portafolio Web - Rodrigo López</title>
+
+    <!-- Estilos de fuente -->
+
+    <!--Titulos-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+
+
+    <!--Subtítulos-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap" rel="stylesheet">
+
+    <!--Textos-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/animations.css">
+
+    <link rel="shortcut icon" href="./imgs/imgs-Pg/web-icon.ico" type="image/x-icon">
+
+</head>
+<body>
+    
+        <header>
+
+
+            <!-- ___Nav___ (flex)-->
+            <section class="nav__container"> 
+                <h1 class="nav__logo titulos">Rodrigo Web Developer</h1>
+                
+                <!--Controles de NAV-->
+                <input type="checkbox"  id="check">
+                <label for="check" class="show-nav">&#8801</label>
+
+                
+                <div class="nav__menu__container">
+                    
+                    <nav class="nav__opciones titulos">
+
+                        <a href="#habilidades">Habilidades</a>
+                        <a href="#proyectos">Proyectos</a>
+                        <a href="#contacto">Contacto</a>
+
+                        <label for="check" class="hide-nav">&#215</label>
+
+                    </nav>
+
+                </div>
+
+            </section>
+
+
+
+            <!--Presentacion propia-->
+            <section class="header__main__info__container">
+
+                <div class="formato__contenedor"> <!--flex (contenedor con formato)-->
+
+                    <div class="header__img__container">
+                        <img src="./imgs/imgs-Pg/rodrigo-img.jpg" alt="" class="header__img rotate-in-2-bck-ccw">
+                    </div>
+
+
+
+                    <div class="header__info">
+
+                        <h1 class="header__titulo__presentacion titulos flip-horizontal-bottom"> Hola, soy Ian Rodrigo López Espinosa,  <span>[Frontend Developer Jr.]</span> </h1>
+
+                        <p class="header__texto__descripcion textos">
+                            Soy egresado de la Universidad Del Valle De México, campus Toluca (2018 - 2023)
+                            en la carrera de <span>Ingeniería En Sistemas Computacionales.</span> 
+
+                            <br><br>
+
+                            Apasionado y decidido por el diseño y desarrollo web.
+
+                        </p>
+
+                        <div class="header__btns">
+
+                            <a href="https://wa.link/0fc603" target="_blank" class="header__btn__contacto subtitulos">Contactame</a>
+    
+                            <a href="#" class="header__btn__cv subtitulos">Descargar CV</a>
+    
+                        </div>
+                        
+                    </div>
+
+
+                    
+                </div>
+
+            </section>
+
+        </header>
+
+
+        <main>
+
+            <section class="tecnologias__container" transition-style="in:square:hesitate"> 
+
+
+                <article class="flex__container"> <!--Flex-->
+
+                    <div class="tecnologias__descripcion__container">
+                        <h2 class="titulos animacion_Titulos">MIS TECNOLOGÍAS QUE MANEJO</h2>
+                        
+
+                        <p class="textos">
+                            [<span>Visual Studio Code</span> como entorno de desarrollo principal].
+                            <br>
+                            [<span>HTML</span> para desarrollar la estructura y maquetación de la página web].
+                            <br>
+                            [<span>CSS</span> para dar estilos, diseño y formato a las páginas web].
+                            <br>
+                            [<span>JavaScript</span> para añadir algunas interacciones en la web, así como también añadir dinamismo a las páginas web].
+                        </p>
+    
+                    </div>
+    
+    
+                    <div class="tecnologias__logos__container">
+
+                            
+                            <img src="./imgs/imgs-Pg/vsCode-img.svg" alt="" class="tec__logo" title="Visual Studio Code">
+                        
+                            <img src="./imgs/imgs-Pg/html-img.svg" alt="" class="tec__logo" title="HTML">
+
+                            <img src="./imgs/imgs-Pg/css-img.svg" alt="" class="tec__logo" title="CSS">
+                    
+                            <img src="./imgs/imgs-Pg/js-img.svg" alt="" class="tec__logo" title="JavaScript">
+                    </div>
+
+
+
+
+                </article>
+
+
+
+            </section>
+
+
+
+            <section class="habilidades__container" id="habilidades">
+
+                <article class="habilidades"> <!--flex container-->
+
+                    <div class="habilidades__img">
+                        
+                        <img src="./imgs/imgs-Pg/habilidades.svg" alt="" class="habilidades__picture">
+
+                    </div>
+
+
+                    <div class="habilidades__info">
+                        <h2 class="titulos animacion_Titulos">HABILIDADES EXTRA</h2>
+
+
+                        <p class="textos">
+                            < Manejo de idioma <span>inglés</span> a nivel básico >. 
+                        </p>
+
+                        <br>
+
+                        <p class="textos">
+                            < Conocimientos básicos introductorios de <span>Firebase</span> >.
+                        </p>
+
+                        <br>
+
+                        <p class="textos">
+                            < Conocimientos básicos de bases de datos <span>MySQL</span> >.
+                        </p>
+
+                        <br>
+
+                        <p class="textos">
+                            < Manejo y uso de plataformas digitales como <span>Microsoft Teams, Zoom, Google Meet</span> >.
+                        </p>
+
+                        <br>
+
+                    </div>
+
+
+                </article>
+
+            </section>
+
+
+
+            <section class="mis__proyectos__container" id="proyectos">
+                
+                <h2 class="mis__proyectos__titulo titulos">MIS PROYECTOS REALIZADOS</h2>
+                
+
+                <article class="mis__proyectos__info"> <!-- Flex container-->
+
+                    <div class="mi_proyecto__card animate-on-scroll">
+
+                        <div class="mi__proyecto__image">
+                            <img src="./imgs/imgs-Pg/react-app.png" alt="">
+                        </div>
+
+                        <div class="mi__proyecto__info">
+                            <h3 class="titulos">APP MÓVIL DE ASIGNATURAS</h3>
+
+                            <p class="textos">
+                                Primer proyecto realizado, orientado al mundo del desarrollo WEB - Fronted Developer. Este proyecto consistió en realizar una app móvil
+                                utilizando  React Native y sus componentes disponibles para utilizar y construir la misma app, cuya operabilidad y visualización se realizó
+                                bajo el serivicio de Expo - Go como herramienta/servidor de desarrollo, así como también se utilizó JavaScript y CSS. La función de la app es realizar
+                                operaciones CRUD para dar de altas y bajas un conjunto de asignaturas y lista de tareas por hacer, además de contar con sistema de autenticación para poder
+                                utilizar la app <span> (<a href="https://drive.google.com/drive/folders/1-23NmrpPoSkmSXfhZnAcSbYt7hEw8tvj" target="_blank"> - ver video demostración -</a>)</span>. 
+                            </p>
+
+                            <div class="proyecto__btn">
+                                <a href="https://github.com/rodrixs054/App-Movil-2024.git"  target="_blank" class="subtitulos btnRep">Visitar repositorio</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="mi_proyecto__card animate-on-scroll">
+
+                        <div class="mi__proyecto__image">
+                            <img src="./imgs/imgs-Pg/Tienda-Pokemon-V1.PNG" alt="">
+                        </div>
+
+                        <div class="mi__proyecto__info">
+                            <h3 class="titulos">SIMULADOR DE UN E-COMERCE</h3>
+
+                            <p class="textos">
+                                Segundo proyecto orientado al desarrollo web, en este proyecto se presentó y se utilizó Boostrap para el desarrollo y construcción de la web, 
+                                con el objetivo de facilitar y agilizar el desarrollo de la misma. Este proyecto consistió en la construcción de un pequeño E-COMMERCE en cuanto
+                                dinamismo del contenido de la web utilizando funciones CRUD para añadir productos a la web a través de un formulario, la información de los productos son
+                                almacenados en una base de datos y estos son leídos y mostrados con JavaScript modifcando el DOOM de la web. (Proyecto realizado para la materia de "Negocios Electrónicos").
+                            </p>
+                            
+                            <div class="proyecto__btn">
+                                <a href="https://github.com/rodrixs054/ECOMMERCE-V1" class="subtitulos btnRep" target="_blank">Visitar repositorio</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="mi_proyecto__card animate-on-scroll">
+
+                        <div class="mi__proyecto__image">
+                            <img src="./imgs/imgs-Pg/Tienda-Pokemon (1).png" alt="">
+                        </div>
+
+                        <div class="mi__proyecto__info">
+                            <h3 class="titulos">E-COMERCE V2</h3>
+
+                            <p class="textos">
+                                Este proyecto consiste en realizar la actualización del proyecto E-COMMERCE v1, aplicando nuevos conceptos
+                                de HTML, CSS y JavaScript, haciendo de este proyecto más interesante, poniendo a prueba y en práctica los nuevos conceptos y temas aprendidos
+                                sobre las tecnologías ya mencionadas, ofreciendo una página más atractiva y organizda con funciones similares
+                                a la versión anterior, mejorando su estética y contenido de la web, pero esta vez sin el uso de frameworks, todo se basará en
+                                la aplicación y práctica de los nuevos conceptos aprendidos sobre las tecnologías empleadas en el proyecto (trabanjando actualmente en él).
+                            </p>
+
+                            <div class="proyecto__btn">
+                                <a href="https://github.com/rodrixs054/E-CCOMERCE-V2" class="subtitulos btnRep" target="_blank">Visitar repositorio</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="mi_proyecto__card animate-on-scroll">
+
+                        <div class="mi__proyecto__image">
+                            <img src="./imgs/imgs-Pg/pagina-copaOriente (1).png" alt="">
+                        </div>
+
+                        <div class="mi__proyecto__info">
+                            <h3 class="titulos">WEB DE REGISTRO DEPORTIVO</h3>
+
+                            <p class="textos">
+                                Proyecto web realizado con HTML, CSS y JavaScript, hecho a solicitud de un equipo deportivo de fútbol de la región de Zitácuaro Michoacán. Dicha página web
+                                tiene como objetivo informar a los usuarios sobre la organización y realización de un torneo de fútbol que se llevará a cabo en la región de Zitácuaro,
+                                por lo cual, la página cuenta con apartados intuitivos y de fácil acceso para consultar la información relevante sobre dicho torneo, por otro lado, la 
+                                página cuenta con un formulario para que cualquier equipo de la región de Zitácuaro y sus municipios vecinos y alrededores puedan realizar su 
+                                pre-registro al torneo, así como también, cada usuario que visite la página puede ver los equipos deportivos inscritos en el torneo.
+                            </p>
+
+                            <div class="proyecto__btn">
+                                <a href="https://copa-oriente-2024.web.app/?fbclid=IwZXh0bgNhZW0CMTEAAR0ogzxtMv25rfs7fNLqBE8QEturWNNoaOOXKAcTdEv87r0RP8_l2QEdj4I_aem_T4RdCgBCTtFJFIweaM15yA&sfnsn=scwspmo" target="_blank" class="subtitulos btnRep">Visitar web</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="mi_proyecto__card animate-on-scroll">
+
+                        <div class="mi__proyecto__image">
+                            <img src="./imgs/imgs-Pg/Portafolio.PNG" alt="">
+                        </div>
+
+                        <div class="mi__proyecto__info">
+                            <h3 class="titulos">PORTAFOLIO WEB</h3>
+
+                            <p class="textos">
+                                Proyecto web personal realizado con HTML y CSS en su primer versión, con el objetivo de dar a conocer y demostrar mi talento y mis habilidades como 
+                                desarrollador fronted junior, poniendo en práctica mis conocimientos y aptitudes en el sector del desarrollo web. Para esta primer versión del mi portafolio web, 
+                                se trata de un portafolio sencillo y llamativo que abarca la información necesaria sobre mi, sobre mis conocimientos, mis habilidades y mis proyectos realizados
+                                como desarrollador fronted, esperando a la llegada de nuevos proyectos que me permitan aumentar mis habilidades y mis conocimientos en el sector del 
+                                del desarrollo web.
+                            </p>
+
+                            <div class="proyecto__btn">
+                                <a href="https://github.com/rodrixs054/PortafolioWeb.git" class="subtitulos btnRep" target="_blank">Visitar repositorio</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+            </section>
+
+
+
+        </main>
+
+
+
+
+        <footer>
+            <section class="footer__info__container">
+
+                <article class="footer__info"> <!--flex-->
+
+
+                    
+                    <div class="footer__texts">
+                        <h5 class="titulos flip-horizontal-bottom">Ian Rodrigo López Espinosa <br>[Ingeniero en sistemas computacionales]</h5>
+
+                        <p class="textos">
+                            Frontend Developer Jr.
+                            <br>
+                            Apasionado y decidido por el desarrollo web.
+                        </p>
+                    </div>
+
+
+
+                    <div class="footer__icons__container" id="contacto">
+                        <h5 class="titulos">Medios de contacto</h5>
+                        
+                        <a href="https://wa.link/0fc603" target="_blank"><i class="fa-brands fa-whatsapp fa-bounce" title="WhatsApp"></i></a>
+
+                        <a href="mailto:rodrigoespinosa7752@gmail.com" target="_blank"> <i class="fa-regular fa-envelope fa-bounce" title="Correo electrónico"></i></a>
+
+                        <a href="https://www.linkedin.com/in/ian-rodrigo-l%C3%B3pez-espinosa/" target="_blank"><i class="fa-brands fa-linkedin fa-bounce" title="Linkedin"></i></a>
+                    </div>
+
+
+
+                    <div class="footer__edit">
+
+                        <h6 class="titulos">Ian Rodrigo López Espinosa &copy; | <span class="year"></span></h6>
+                    </div>
+                    
+                </article>
+
+            </section>
+
+        </footer>
+
+        <!--libreria de íconos-->
+        <script src="https://kit.fontawesome.com/1b597c8904.js" crossorigin="anonymous"></script>
+        
+        <!--Scripts personalizados-->
+        <script src="./scripts/fecha.js "></script>
+        <script src="./scripts/animation.js"></script>
+</body>
+</html>
