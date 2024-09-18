@@ -521,10 +521,10 @@ establecido.*/
     background: #ffffff44;
 }
 
-.mi__proyecto__info .btnRep{
-    width: 50%;
+.mi__proyecto__info .btnRep{ 
+    width: 45%;
     display: inline-block;
-    margin: 10px 0;
+    margin: 10px 10px;
     background: rgba(4, 93, 91, 0.55);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -532,11 +532,11 @@ establecido.*/
     -webkit-backdrop-filter: blur(7.7px);
     border: 1px solid rgba(4, 93, 91, 1);
     border-radius: 5px;
-    padding: 15px;
+    padding: 10px;
     text-decoration: none;
     color:var(--turquesa50);
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     border: 2px solid var(--turquesa50);
     transition: 0.4s;
 }
@@ -546,6 +546,14 @@ establecido.*/
     box-shadow: 8px -6px 3px var(--turquesa50);   
     border: 0;
 }
+
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 /*==================================================*/
 footer{
     background-image: url(../imgs/imgs-Pg/footer-bg.svg);
@@ -969,7 +977,15 @@ footer{
         font-size: 16px;
     }
 
+    .video{
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
 
+    #btnVideo{
+        width: 65%;
+    }
 }
 
 
