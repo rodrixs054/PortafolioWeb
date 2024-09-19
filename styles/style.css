@@ -9,7 +9,7 @@
 }
 
 .textos{
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'PT Sans Narrow', Arial, Helvetica, sans-serif; /*CAMBIOS V2*/
 }
 
 .textos2{
@@ -524,7 +524,7 @@ establecido.*/
 .mi__proyecto__info .btnRep{ 
     width: 45%;
     display: inline-block;
-    margin: 10px 10px;
+    margin: 5px 5px;
     background: rgba(4, 93, 91, 0.55);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -536,7 +536,7 @@ establecido.*/
     text-decoration: none;
     color:var(--turquesa50);
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     border: 2px solid var(--turquesa50);
     transition: 0.4s;
 }
@@ -971,12 +971,6 @@ footer{
         padding: 5px;
     }
 
-
-    .mi__proyecto__info a{
-        margin-top: 30px;
-        font-size: 16px;
-    }
-
     .video{
         flex-direction: column;
         width: 100%;
@@ -987,18 +981,3 @@ footer{
         width: 65%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
