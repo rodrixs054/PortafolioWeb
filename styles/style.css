@@ -864,7 +864,7 @@ footer{
 
     .header__texto__descripcion{
         text-align: justify;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .header__btns{
@@ -872,8 +872,8 @@ footer{
         gap: 10px
     }
     .header__btn__contacto, .header__btn__cv{
-        width:150px;
-        font-size: 16px;
+        width:180px;
+        font-size: 14px;
         padding: 10px;
         text-align: center;
         margin: 0;
@@ -905,6 +905,7 @@ footer{
         width: 100%;
         text-align: justify;
         padding: 10px;
+        font-size: 17px;
     }
 
     .tecnologias__logos__container{
@@ -941,6 +942,7 @@ footer{
     .habilidades__info p{
         padding: 5px;
         text-align: center;
+        font-size: 16px; 
     }
 
     /*=== Sección de proyectos realizados ===*/
@@ -950,9 +952,9 @@ footer{
 
     .mi_proyecto__card{
         width: 100%;
-        padding: 5px;
+        padding: 3px; 
         border-radius: 0;
-        height: 550px;
+        height: 540px;
     }
 
     .mi__proyecto__image img{
